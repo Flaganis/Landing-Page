@@ -1,3 +1,35 @@
-.header {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Roboto';font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+   
     
+}
+    
+
+.header {
+
+}
+
+
+
+.footer {
+    
+    
+    display: flex;
+    background-color: #1f2937;
+    color: aliceblue;
+    justify-content: space-around;
+    font-size: 18px;
+    
+    
+    
+   
+ 
+    
+    
+
 }
