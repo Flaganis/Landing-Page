@@ -11,6 +11,26 @@ body {
     
 
 .header {
+    display: flex;
+    
+    background-color: #1f2937;
+    a { display: flex;
+        
+        flex: 1;
+        text-decoration: none;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 18px;
+        color: #e5e7eb;
+        
+        
+
+    }
+    img { background-color: orangered; border-radius: 100%;
+        margin: 25px;
+        padding: 5px;
+
+    }
 
 }
 
@@ -22,8 +42,21 @@ body {
     display: flex;
     background-color: #1f2937;
     color: aliceblue;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    
     font-size: 18px;
+    img {
+        width: 25px; background-color: orangered; border-radius: 100%;
+        vertical-align: middle;
+        
+        padding: 5px;
+        display: inline-block;
+        
+        
+    }
+    
+    
     
     
     
