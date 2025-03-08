@@ -60,7 +60,28 @@ img.gradient-shift {
     margin: 0 10px;
 }
 
+.hero {
+    background-color: #1f2937;
+    display: flex;
+   
+}
 
+.hero img{width: 25%;
+
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    padding: 16px;
+    padding-inline: 48px;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
 
 .footer {
     
