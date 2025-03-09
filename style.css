@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     background-color: #1f2937;
-    padding: 0 20px;
+    padding: 0 150px;
 }
 
 img.gradient-shift {
@@ -45,6 +45,7 @@ img.gradient-shift {
     padding: 0 10px;
     display: flex;
     flex-grow: 1;
+    
 }
 
 .header a {
@@ -63,13 +64,34 @@ img.gradient-shift {
 .hero {
     background-color: #1f2937;
     display: flex;
+    padding: 150px;
    
 }
 
-.hero img{width: 25%;
-
+.hero img{    
+    width: 700px;
+    aspect-ratio: auto 700 / 300;
+    border-radius: 14px;
+    
 }
 
+.left {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 16px;
+    padding-inline: 256px;
+}
+
+.placeholder {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;    
+    gap: 16px;
+}
 button{
     background-color: #3882F6;
     color: #F9FAF8;
@@ -81,6 +103,55 @@ button{
     border-radius: 14px;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+button:hover {
+    transform: scale(1.05);
+}
+
+
+.imgflex
+{display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.second-panel
+{ display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 64px;}
+.boxes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    gap: 16px;
+    align-items: center;
+}
+
+.boxes-placeholder  {
+    height: 250px;
+    width: 250px;
+
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 32px;
+    border-width: 8px;
+}
+
+.boxes-text {
+    max-width: 250px;
+    color: #1F2937;
+    text-align: center;
+    font-size: 18px;
+}
+
+.info {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .footer {
