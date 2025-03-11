@@ -131,15 +131,20 @@ button:hover {
     align-items: center;
 }
 
-.boxes-placeholder  {
+.boxes img
+{border-radius: 32px;
     height: 250px;
     width: 250px;
-
     border-color: #3882F6;
     border-style: solid;
     border-radius: 32px;
     border-width: 8px;
+
 }
+
+
+    
+
 
 .boxes-text {
     max-width: 250px;
@@ -154,6 +159,30 @@ button:hover {
     font-weight: 900;
 }
 
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+display: flex;
+    flex-direction: column;
+    
+    padding: 128px;
+    padding-inline: 256px;
+}
+.quotetext {
+    font-size: 36px;
+    
+    text-align: justify;
+    
+
+}
+.author {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: right;
+}
 .footer {
     
     
