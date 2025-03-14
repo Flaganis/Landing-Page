@@ -113,6 +113,7 @@ button:hover {
 {display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 300px;
 
 }
 
@@ -168,7 +169,7 @@ button:hover {
 display: flex;
     flex-direction: column;
     
-    padding: 128px;
+    padding: 128px 300px;
     padding-inline: 256px;
 }
 .quotetext {
@@ -183,6 +184,49 @@ display: flex;
     font-weight: 900;
     text-align: right;
 }
+
+
+.call > .first-panel {
+    height: 200px;
+    width: 1400px;
+
+    background-color: #3882F6;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.hook-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hook-header {
+    color: #F9FAF8;
+    font-size: 36px;
+    font-weight: 900;
+
+}
+
+.hook-message {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.button2 {
+    border-style: solid;
+}
+
+.call {
+    padding: 128px 300px;
+}
+
+
+
 .footer {
     
     
